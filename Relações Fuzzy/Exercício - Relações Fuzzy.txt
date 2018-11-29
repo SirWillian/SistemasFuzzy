@@ -1,0 +1,9 @@
+1 - A relação R1 faz bastante sentido. Valores similares tendem a 0, causando a exponencial tender a 1. Valores distantes um do outro levam
+a exponencial a valores pequenos. A distância entre os valores é atenuada pelo fator beta.
+    A relação R2 faz sentido apenas para y=x, pois qualquer outra combinação de valores faz a função ser maior que 1.
+    A relação R3 também não faz muito sentido, pois além de não estar no intervalo [0,1], pares (x,y) em que x=-y-2 causam a relação a ser indefinida.
+Valores de X próximos aos mencionado causam a relação a tender ao infinito. Logo, mesmo com a diferença entre x e y ser de aproximadamente 2 (y não é
+muito maior que x), o valor resultante tem magnitude alta.
+
+2 - Imagens inclusas no arquivo comprimido. Na união, pode-se notar os picos causados pela relação 3 em conjunção com a curva da relação 1. A interse-
+ção é dominada pela relação 3.
