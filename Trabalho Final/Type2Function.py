@@ -1,3 +1,4 @@
+from __future__ import division
 class Type2Function(object):
     def __init__(self,centro,min_valor,max_valor,alfa,beta,alfa2):
         self.centro=centro
@@ -26,3 +27,12 @@ class Type2Function(object):
             return pert**(1/self.alfa2)
         else:
             return pert**self.alfa2
+
+    def adjust_center(self,centro):
+        self.centro=centro
+        self.min=centro-63
+        self.max=centro+63
+        if(self.min<0):
+            self.min=0
+        if(self.max>255):
+            self.min=255
